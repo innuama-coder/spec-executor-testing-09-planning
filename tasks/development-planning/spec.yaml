@@ -1,0 +1,16 @@
+version: "2.0"
+name: "development-planning-quality-dashboard"
+repo:
+  url: "https://github.com/innuama-coder/spec-executor-testing-09-planning.git"
+  branch: "main"
+task_dir: "tasks/development-planning"
+executor: "claude"
+deliverables:
+  - path: "plans/development-plan.md"
+    verify: "test -s plans/development-plan.md && grep -q \"测试\" plans/development-plan.md && grep -q \"依赖\" plans/development-plan.md && grep -q \"验收\" plans/development-plan.md && grep -q \"并行\" plans/development-plan.md && grep -q \"停止\" plans/development-plan.md"
+execution:
+  poll_interval_sec: 2
+  idle_timeout_sec: 90
+  max_duration_min: 15
+  max_nudge_count: 3
+  max_consecutive_escalate: 2
