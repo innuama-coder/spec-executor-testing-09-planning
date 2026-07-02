@@ -49,8 +49,11 @@
 
 ## Merging Result
 
-**Result:** — Skipped
+**Result:** ✓ Merged
 
-- **Reason:** `skipped`
-- **Worktree status:** `kept_for_manual_review`
+- **Source branch:** `spec-exec/research-planning-quality-dashboard-FYRQH7`
+- **Target branch:** `main`
+- **Merge commit:** `546a43b5f9381b39a875ec21bf9991d89cfe9518`
+- **Merged at:** `2026-07-02T03:04:02.119467+00:00`
+- **Push:** `pushed` to `origin`
 
