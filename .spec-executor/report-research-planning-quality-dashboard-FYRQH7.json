@@ -1,0 +1,87 @@
+{
+  "deliverables": {
+    "aggregate": {
+      "failed": 0,
+      "passed": 1,
+      "total": 1,
+      "total_duration_ms": 21,
+      "verify_executed": 1,
+      "verify_passed": 1,
+      "warning_items": 0
+    },
+    "finished_at": "2026-07-02T03:04:01.921482+00:00",
+    "items": [
+      {
+        "duration_ms": 21,
+        "existence": "present_file",
+        "existence_detail": null,
+        "failure_detail": null,
+        "failure_reason": null,
+        "passed": true,
+        "path": "plans/research-plan.md",
+        "verify_command": "test -s plans/research-plan.md && grep -q \"依赖\" plans/research-plan.md && grep -q \"验收\" plans/research-plan.md && grep -q \"并行\" plans/research-plan.md && grep -q \"停止\" plans/research-plan.md",
+        "verify_duration_ms": 21,
+        "verify_exit_code": 0,
+        "verify_signal": null,
+        "verify_stderr_tail": "",
+        "verify_stdout_tail": "",
+        "verify_timed_out": false,
+        "warnings": []
+      }
+    ],
+    "not_run_reason": null,
+    "started_at": "2026-07-02T03:04:01.899860+00:00",
+    "verification": "ran"
+  },
+  "generated_at": "2026-07-02T03:04:01.893847+00:00",
+  "merging": {
+    "attempted": false,
+    "base_branch": null,
+    "conflict": null,
+    "merge_commit_sha": null,
+    "merged_at": null,
+    "push_detail": null,
+    "push_status": "not_attempted",
+    "pushed": false,
+    "result": "skipped",
+    "skip_reason": "skipped",
+    "source_branch": "spec-exec/research-planning-quality-dashboard-FYRQH7"
+  },
+  "metadata": {
+    "duration_ms": 245704,
+    "executor": "claude",
+    "finished_at": "2026-07-02T03:04:01.893847+00:00",
+    "log_dir": "/Users/royzuo/spec-e2e-v23/logs-resplan/research-planning-quality-dashboard-FYRQH7",
+    "mode": "worktree",
+    "repo_branch_base": "main",
+    "repo_branch_worktree": "spec-exec/research-planning-quality-dashboard-FYRQH7",
+    "repo_url": "https://github.com/innuama-coder/spec-executor-testing-09-planning.git",
+    "session_id": "research-planning-quality-dashboard-FYRQH7",
+    "started_at": "2026-07-02T02:59:56.188906+00:00",
+    "task_name": "research-planning-quality-dashboard",
+    "worktree_path": "/Users/royzuo/spec-e2e-v23/.spec-executor-worktrees/research-planning-quality-dashboard-FYRQH7"
+  },
+  "monitoring": {
+    "consecutive_escalate": 0,
+    "decision_done": 1,
+    "decision_escalate_normalized": 0,
+    "decision_fallback_used": 0,
+    "decision_nudge": 0,
+    "decision_timeout": 0,
+    "decision_total": 1,
+    "idle_timeout_hits": 1,
+    "last_decision_action": "done",
+    "last_decision_text": "Cooked for 3m28s; RS-01~06 DAG complete with all verif PASS and handoff ready",
+    "monitoring_finished_at": "2026-07-02T03:04:01.893847+00:00",
+    "monitoring_started_at": "2026-07-02T03:00:15.802258+00:00",
+    "nudge_count": 0,
+    "poll_count": 27
+  },
+  "schema_version": "spec-executor-report/2.0",
+  "spec_executor_version": "2.2.7",
+  "status": {
+    "failure_category": null,
+    "failure_detail": null,
+    "result": "passed"
+  }
+}
