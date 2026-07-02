@@ -1,0 +1,87 @@
+{
+  "deliverables": {
+    "aggregate": {
+      "failed": 0,
+      "passed": 1,
+      "total": 1,
+      "total_duration_ms": 18,
+      "verify_executed": 1,
+      "verify_passed": 1,
+      "warning_items": 0
+    },
+    "finished_at": "2026-07-02T02:52:09.218970+00:00",
+    "items": [
+      {
+        "duration_ms": 18,
+        "existence": "present_file",
+        "existence_detail": null,
+        "failure_detail": null,
+        "failure_reason": null,
+        "passed": true,
+        "path": "plans/design-plan.md",
+        "verify_command": "test -s plans/design-plan.md && grep -q \"依赖\" plans/design-plan.md && grep -q \"验收\" plans/design-plan.md && grep -q \"并行\" plans/design-plan.md && grep -q \"停止\" plans/design-plan.md",
+        "verify_duration_ms": 18,
+        "verify_exit_code": 0,
+        "verify_signal": null,
+        "verify_stderr_tail": "",
+        "verify_stdout_tail": "",
+        "verify_timed_out": false,
+        "warnings": []
+      }
+    ],
+    "not_run_reason": null,
+    "started_at": "2026-07-02T02:52:09.200651+00:00",
+    "verification": "ran"
+  },
+  "generated_at": "2026-07-02T02:52:09.196025+00:00",
+  "merging": {
+    "attempted": false,
+    "base_branch": null,
+    "conflict": null,
+    "merge_commit_sha": null,
+    "merged_at": null,
+    "push_detail": null,
+    "push_status": "not_attempted",
+    "pushed": false,
+    "result": "skipped",
+    "skip_reason": "skipped",
+    "source_branch": "spec-exec/design-planning-quality-dashboard-Y3JVDN"
+  },
+  "metadata": {
+    "duration_ms": 193703,
+    "executor": "codex",
+    "finished_at": "2026-07-02T02:52:09.196025+00:00",
+    "log_dir": "/Users/royzuo/spec-e2e-v23/logs-designplan/design-planning-quality-dashboard-Y3JVDN",
+    "mode": "worktree",
+    "repo_branch_base": "main",
+    "repo_branch_worktree": "spec-exec/design-planning-quality-dashboard-Y3JVDN",
+    "repo_url": "https://github.com/innuama-coder/spec-executor-testing-09-planning.git",
+    "session_id": "design-planning-quality-dashboard-Y3JVDN",
+    "started_at": "2026-07-02T02:48:55.492334+00:00",
+    "task_name": "design-planning-quality-dashboard",
+    "worktree_path": "/Users/royzuo/spec-e2e-v23/.spec-executor-worktrees/design-planning-quality-dashboard-Y3JVDN"
+  },
+  "monitoring": {
+    "consecutive_escalate": 0,
+    "decision_done": 1,
+    "decision_escalate_normalized": 0,
+    "decision_fallback_used": 0,
+    "decision_nudge": 1,
+    "decision_timeout": 0,
+    "decision_total": 2,
+    "idle_timeout_hits": 2,
+    "last_decision_action": "done",
+    "last_decision_text": "Worked for 2m35s with all verification PASS; task complete and idle",
+    "monitoring_finished_at": "2026-07-02T02:52:09.196025+00:00",
+    "monitoring_started_at": "2026-07-02T02:49:15.164223+00:00",
+    "nudge_count": 1,
+    "poll_count": 20
+  },
+  "schema_version": "spec-executor-report/2.0",
+  "spec_executor_version": "2.2.7",
+  "status": {
+    "failure_category": null,
+    "failure_detail": null,
+    "result": "passed"
+  }
+}
