@@ -6,7 +6,6 @@
 
 ## Context To Load
 
-- `C:/Users/54256213/.codex/skills/research-planning/SKILL.md`
 - `docs/PRD.md`
 - `inputs/project-brief.md`
 

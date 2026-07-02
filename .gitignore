@@ -1,0 +1,5 @@
+.spec-executor/
+.spec-executor-worktrees/
+target/
+node_modules/
+__pycache__/

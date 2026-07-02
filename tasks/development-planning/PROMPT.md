@@ -6,11 +6,12 @@
 
 ## 必读上下文
 
-1. `C:/Users/54256213/.codex/skills/development-planning/SKILL.md`
 2. `docs/LLD.md`
 3. `inputs/project-brief.md`
 
 ## 交付物
+
+> 所有交付物路径均**相对仓库/worktree 根目录**（执行者的工作目录），例如 `outputs/PRD.md` 指根目录下的 `outputs/PRD.md`，不要写到 `tasks/` 子目录下。
 
 - `plans/development-plan.md`
 
